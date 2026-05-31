@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "memory": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
+      "env": {}
+    }
+  }
+}
+
+# Features:
+# - Persistent knowledge graph
+# - Entity and relation management
+# - Search across stored knowledge
+# - Context-aware retrieval
+
+# Use for: project knowledge, decisions log, team conventions

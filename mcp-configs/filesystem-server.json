@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/allowed/directory"
+      ],
+      "env": {}
+    }
+  }
+}
+
+# Features:
+# - Read/write files in allowed directories
+# - Create directories
+# - List directory contents
+# - Move/rename files
+# - Search files by pattern
+# - Get file metadata
+
+# Security:
+# - Path sandboxing (can only access allowed directories)
+# - No access to system directories
+# - No shell command execution

@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://user:password@localhost:5432/dbname"
+      ],
+      "env": {}
+    }
+  }
+}
+
+# Features:
+# - Execute read-only SQL queries
+# - List tables and schemas
+# - Describe table structure
+# - Query with parameterized inputs
+
+# Security:
+# - Read-only by default
+# - Connection string in config (use env vars for production)
+# - Query timeout protection
